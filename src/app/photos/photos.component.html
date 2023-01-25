@@ -1,0 +1,20 @@
+<table class="table table-striped">  
+    <thead>  
+        <tr>  
+          <th>albumId</th>  
+          <th>id</th>  
+          <th>title</th>
+          <th>url</th>
+          <th>thumbnailUrl</th>
+        </tr>  
+    </thead>  
+    <tbody>  
+      <tr *ngFor="let photo of photos">  
+        <td>{{ photo.albumId }}</td>  
+        <td>{{ photo.id }}</td>  
+        <td>{{ photo.title }}</td>
+        <td>{{ photo.url }}</td>
+        <td>{{ photo.thumbnailUrl }}</td>
+      </tr>  
+    </tbody>  
+  </table>  
